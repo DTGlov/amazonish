@@ -15,7 +15,7 @@ function Header() {
             alt=""
           />
         </Link>
-        <div className="flex flex-1 m-2">
+        <div className="flex flex-1 m-2 hidden md:block">
           <input className="w-full h-8" type="text" />
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ function Header() {
             />
           </svg>
         </div>
-        <div className="flex justify-around">
+        <div className="flex justify-around hidden md:block">
           <div className="flex flex-col text-white m-2 text-xs">
             <span>Hello Guest</span>
             <span className="font-bold text-sm">Sign In</span>
