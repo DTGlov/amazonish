@@ -36,7 +36,7 @@ export const Checkout = () => {
           <div>
             <h3 className="font-bold text-md md:text-lg">Hello,</h3>
             <h2 className="mb-3 font-bold text-md md:text-2xl ">
-              Your Shipping Basket
+              Your Shopping Basket
             </h2>
             <div className="border-b-2 border-gray-400 mb-4"></div>
             {basket.map((item) => (
