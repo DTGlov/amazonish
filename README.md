@@ -1,2 +1,2 @@
 # amazonish
-Amazon
+Amazon clone created with React, tailwindCss and Redux for state management. 
